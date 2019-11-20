@@ -1,0 +1,9 @@
+columns:
+    id:
+        label: ID
+        type: number
+        invisible: false
+    fotoBrosur:
+        label: 'Foto Brosur'
+        type: partial
+        path: ~/plugins/ugi/akikahkita/models/mitra/_gambar.htm

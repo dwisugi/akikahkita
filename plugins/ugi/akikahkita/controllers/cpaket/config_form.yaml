@@ -1,0 +1,10 @@
+name: CPaket
+form: $/ugi/akikahkita/models/paket/fields.yaml
+modelClass: Ugi\Akikahkita\Models\Paket
+defaultRedirect: ugi/akikahkita/cpaket
+create:
+    redirect: 'ugi/akikahkita/cpaket/update/:id'
+    redirectClose: ugi/akikahkita/cpaket
+update:
+    redirect: ugi/akikahkita/cpaket
+    redirectClose: ugi/akikahkita/cpaket

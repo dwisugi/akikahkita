@@ -1,0 +1,10 @@
+name: CMitra
+form: $/ugi/akikahkita/models/mitra/fields.yaml
+modelClass: Ugi\Akikahkita\Models\Mitra
+defaultRedirect: ugi/akikahkita/cmitra
+create:
+    redirect: 'ugi/akikahkita/cmitra/update/:id'
+    redirectClose: ugi/akikahkita/cmitra
+update:
+    redirect: ugi/akikahkita/cmitra
+    redirectClose: ugi/akikahkita/cmitra

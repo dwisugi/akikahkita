@@ -1,0 +1,63 @@
+fields:
+    mitra_id:
+        label: 'Mitra ID'
+        span: auto
+        hidden: 0
+        type: number
+    kode:
+        label: Kode
+        span: auto
+        required: 1
+        type: text
+    nama_paket:
+        label: 'Nama Paket'
+        span: auto
+        type: text
+    kategori_paket:
+        label: 'Kategori Paket'
+        span: auto
+        type: text
+    menu_masakan:
+        label: 'Menu Masakan'
+        span: auto
+        type: text
+    jk_kambing:
+        label: 'Jenis Kelamin Kambing'
+        options:
+            jantan: Jantan
+            betina: Betina
+        showSearch: true
+        span: auto
+        type: dropdown
+    porsi:
+        label: Porsi
+        span: auto
+        type: text
+    harga:
+        label: Harga
+        span: auto
+        type: number
+    promo_id:
+        label: 'Promo ID'
+        span: auto
+        type: number
+    paket_id:
+        label: 'Paket ID'
+        span: auto
+        hidden: 1
+        type: number
+    keterangan:
+        label: Keterangan
+        size: tiny
+        span: auto
+        type: textarea
+    kelebihan:
+        label: Kelebihan
+        size: tiny
+        span: auto
+        type: textarea
+    id:
+        label: 'Paket ID'
+        span: auto
+        hidden: 1
+        type: number

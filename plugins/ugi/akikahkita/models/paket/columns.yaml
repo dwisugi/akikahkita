@@ -1,0 +1,60 @@
+columns:
+    mitra_id:
+        label: 'Mitra ID'
+        type: number
+        searchable: false
+        invisible: true
+        sortable: false
+    kode:
+        label: Kode
+        type: text
+        searchable: true
+        sortable: true
+    nama_paket:
+        label: 'Nama Paket'
+        type: text
+        searchable: true
+        sortable: true
+    kategori_paket:
+        label: 'Kategori Paket'
+        type: text
+        searchable: true
+        sortable: true
+    menu_masakan:
+        label: 'Menu Masakan'
+        type: text
+        searchable: true
+        sortable: true
+    jk_kambing:
+        label: 'Jenis Kelamin Kambing'
+        type: text
+        searchable: true
+        sortable: true
+    keterangan:
+        label: Keterangan
+        type: text
+        searchable: true
+        sortable: true
+    porsi:
+        label: porsi
+        type: text
+        searchable: true
+        sortable: true
+    harga:
+        label: Harga
+        type: number
+        searchable: true
+        sortable: true
+    kelebihan:
+        label: Kelebihan
+        type: text
+        searchable: true
+        sortable: true
+    promo_id:
+        label: 'Promo ID'
+        type: number
+        invisible: true
+    paket_id:
+        label: 'Paket ID'
+        type: number
+        invisible: true

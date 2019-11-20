@@ -1,0 +1,10 @@
+name: CBrosur
+form: $/ugi/akikahkita/models/brosur/fields.yaml
+modelClass: Ugi\Akikahkita\Models\Brosur
+defaultRedirect: ugi/akikahkita/cbrosur
+create:
+    redirect: 'ugi/akikahkita/cbrosur/update/:id'
+    redirectClose: ugi/akikahkita/cbrosur
+update:
+    redirect: ugi/akikahkita/cbrosur
+    redirectClose: ugi/akikahkita/cbrosur

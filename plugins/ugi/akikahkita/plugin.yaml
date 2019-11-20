@@ -1,0 +1,98 @@
+plugin:
+    name: 'ugi.akikahkita::lang.plugin.name'
+    description: 'ugi.akikahkita::lang.plugin.description'
+    author: ugi
+    icon: oc-icon-github-alt
+    homepage: ''
+navigation:
+    main-menu-paket:
+        label: Paket
+        url: ugi/akikahkita/cpaket
+        icon: icon-life-ring
+        permissions:
+            - paket_code
+    main-menu-mitra:
+        label: Mitra
+        url: ugi/akikahkita/cmitra
+        icon: icon-birthday-cake
+        permissions:
+            - mitra_code
+    main-menu-pemesanan:
+        label: Pemesanan
+        url: /
+        icon: icon-book
+        permissions:
+            - pemesanan_code
+    main-menu-lpemesanan:
+        label: 'Laporan Pemesanan'
+        url: /
+        icon: icon-archive
+        permissions:
+            - laporanPemesanan_code
+    main-menu-pembayaran:
+        label: Pembayaran
+        url: /
+        icon: icon-money
+        permissions:
+            - pembayaran_code
+    main-menu-promo:
+        label: Promo
+        url: /
+        icon: icon-pied-piper
+        permissions:
+            - promo_code
+    main-menu-brosur:
+        label: Brosur
+        url: ugi/akikahkita/cbrosur
+        icon: icon-newspaper-o
+        permissions:
+            - brosur_code
+    main-menu-profilm:
+        label: 'Profil Mitra'
+        url: /
+        icon: icon-delicious
+        permissions:
+            - profilMitra_code
+    main-menu-dreselller:
+        label: 'Daftar Reseller'
+        url: /
+        icon: icon-angle-double-down
+        permissions:
+            - daftarReseller_code
+    main-menu-broadcast:
+        label: Broadcast
+        url: /
+        icon: icon-signal
+        permissions:
+            - broadcast_code
+permissions:
+    paket_code:
+        tab: paket_title
+        label: paket_label
+    mitra_code:
+        tab: mitra_title
+        label: mitra_label
+    pemesanan_code:
+        tab: pemesanan_title
+        label: pemesanan_label
+    laporanPemesanan_code:
+        tab: laporanPemesaan_title
+        label: laporanPemesanan_label
+    pembayaran_code:
+        tab: pembayaran_title
+        label: pembayaran_label
+    promo_code:
+        tab: promo_title
+        label: promo_label
+    brosur_code:
+        tab: brosur_title
+        label: brosur_label
+    profilMitra_code:
+        tab: profilMitra_title
+        label: profilMitra_label
+    broadcast_code:
+        tab: broadcast_title
+        label: broadcast_label
+    daftarReseller_code:
+        tab: daftarReseller_title
+        label: daftarReseller_label

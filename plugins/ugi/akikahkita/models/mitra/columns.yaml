@@ -1,0 +1,31 @@
+columns:
+    nama:
+        label: 'Nama Mitra'
+        type: text
+        searchable: true
+        sortable: true
+    alamat:
+        label: 'Alamat '
+        type: text
+        searchable: true
+        sortable: true
+    id:
+        label: 'Mitra ID'
+        type: number
+        invisible: true
+    fotoProfil:
+        label: 'Foto Profil'
+        type: partial
+        path: ~/plugins/ugi/akikahkita/models/mitra/_gambar.htm
+    fotoKantor:
+        label: 'Foto Kantor'
+        type: partial
+        path: ~/plugins/ugi/akikahkita/models/mitra/_gambar.htm
+    fotoDapur:
+        label: 'Foto Dapur'
+        type: partial
+        path: ~/plugins/ugi/akikahkita/models/mitra/_gambar.htm
+    fotoKandang:
+        label: 'Foto Kandang'
+        type: partial
+        path: ~/plugins/ugi/akikahkita/models/mitra/_gambar.htm

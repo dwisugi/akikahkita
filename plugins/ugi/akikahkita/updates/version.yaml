@@ -1,0 +1,38 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table ugi_akikahkita_paket'
+    - builder_table_create_ugi_akikahkita_paket.php
+1.0.3:
+    - 'Updated table ugi_akikahkita_paket'
+    - builder_table_update_ugi_akikahkita_paket.php
+1.0.4:
+    - 'Created table ugi_akikahkita_mitra'
+    - builder_table_create_ugi_akikahkita_mitra.php
+1.0.5:
+    - 'Updated table ugi_akikahkita_paket'
+    - builder_table_update_ugi_akikahkita_paket_2.php
+1.0.6:
+    - 'Updated table ugi_akikahkita_paket'
+    - builder_table_update_ugi_akikahkita_paket_3.php
+1.0.7:
+    - 'Updated table ugi_akikahkita_paket'
+    - builder_table_update_ugi_akikahkita_paket_4.php
+1.0.8:
+    - 'Updated table ugi_akikahkita_paket'
+    - builder_table_update_ugi_akikahkita_paket_5.php
+1.0.9:
+    - 'Updated table ugi_akikahkita_mitra'
+    - builder_table_update_ugi_akikahkita_mitra.php
+1.0.10:
+    - 'Updated table ugi_akikahkita_mitra'
+    - builder_table_update_ugi_akikahkita_mitra_2.php
+1.0.11:
+    - 'Updated table ugi_akikahkita_mitra'
+    - builder_table_update_ugi_akikahkita_mitra_3.php
+1.0.12:
+    - 'Created table ugi_akikahkita_brosur'
+    - builder_table_create_ugi_akikahkita_brosur.php
+1.0.13:
+    - 'Updated table ugi_akikahkita_brosur'
+    - builder_table_update_ugi_akikahkita_brosur.php

@@ -1,0 +1,61 @@
+fields:
+    id:
+        label: 'Mitra ID'
+        span: auto
+        hidden: 1
+        type: number
+    alamat:
+        label: Alamat
+        size: tiny
+        span: auto
+        required: 1
+        type: textarea
+    nama:
+        label: Nama
+        span: auto
+        required: 1
+        type: text
+    fotoProfil:
+        label: 'Foto Profil'
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    fotoKantor:
+        label: 'Foto Kantor'
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    fotoDapur:
+        label: 'Foto Dapur'
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    fotoKandang:
+        label: 'Foto Kandang'
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

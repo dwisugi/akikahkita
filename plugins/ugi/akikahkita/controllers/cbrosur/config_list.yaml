@@ -1,0 +1,12 @@
+list: $/ugi/akikahkita/models/brosur/columns.yaml
+modelClass: Ugi\Akikahkita\Models\Brosur
+title: CBrosur
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'ugi/akikahkita/cbrosur/update/:id'
